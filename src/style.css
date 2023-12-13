@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.yiyi {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 300px;
+  width: 200px;
+  background-color: rgb(120, 180, 112);
+  border: 5px;
+  border-color: black;
+  border-radius: 7px;
+  padding: 10px;
+  position: relative;
+}
+
+body {
+  background: rgb(206, 116, 31);
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(44, 118, 202);
+}
+
+.suit-left {
+  padding-right: 3rem;
+}
+.suit-right {
+  padding-left: 3rem;
+}
